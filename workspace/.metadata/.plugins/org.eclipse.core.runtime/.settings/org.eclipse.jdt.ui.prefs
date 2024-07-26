@@ -1,0 +1,15 @@
+content_assist_disabled_computers=org.eclipse.jdt.ui.textProposalCategory\u0000org.eclipse.jdt.ui.javaPostfixProposalCategory\u0000org.eclipse.jdt.ui.javaAllProposalCategory\u0000org.eclipse.jdt.ui.javaTypeProposalCategory\u0000org.eclipse.jdt.ui.javaNoTypeProposalCategory\u0000org.eclipse.jdt.ui.javaChainProposalCategory\u0000
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="com.study.dvd.util.DBConnectionMgr"><rhs name\="com.study.dvd.util.DBConnectionMgr"/></lhs><lhs name\="java.lang.CharSequence"><rhs name\="java.lang.StringBuilder"/></lhs><lhs name\="java.lang.AbstractStringBuilder"><rhs name\="java.lang.StringBuilder"/></lhs><lhs name\="java.lang.Appendable"><rhs name\="java.lang.StringBuilder"/></lhs><lhs name\="com.study.dvd.entity.Producer"><rhs name\="com.study.dvd.entity.Producer"/></lhs><lhs name\="java.util.Collection"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.lang.Iterable"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.List"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="util.DBConnectionMgr"><rhs name\="util.DBConnectionMgr"/></lhs></history>
+content_assist_number_of_computers=20
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+markOccurrences=false
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.internal.ui.navigator.librariesnode=true
+org.eclipse.jdt.ui.formatterprofiles.version=22
+org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates><template autoinsert\="true" context\="java" deleted\="false" description\="" enabled\="true" name\="iud">int successCount \= 0;&\#13;\r\n\t\tConnection con \= null;&\#13;\r\n\t\tPreparedStatement pstmt \= null;&\#13;\r\n\t\t&\#13;\r\n\t\ttry {&\#13;\r\n\t\t\tcon \= pool.getConnection();&\#13;\r\n\t\t\tString sql \= "";&\#13;\r\n\t\t\tpstmt \= con.prepareStatement(sql);&\#13;\r\n\t\t\tsuccessCount \= pstmt.executeUpdate();&\#13;\r\n\t\t} catch (Exception e) {&\#13;\r\n\t\t\te.printStackTrace();&\#13;\r\n\t\t} finally {&\#13;\r\n\t\t\tpool.freeConnection(con, pstmt);&\#13;\r\n\t\t}&\#13;\r\n\t\treturn successCount;</template></templates>
+spelling_locale_initialized=true
+typefilter_migrated_2=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

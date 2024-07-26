@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;ServletSessionAuth&apos; to &apos;servlet_session_auth&apos;" description="Rename resource &apos;ServletSessionAuth&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/ServletSessionAuth" name="servlet_session_auth" stamp="1721002700808" updateReferences="true"/>
+</session>
